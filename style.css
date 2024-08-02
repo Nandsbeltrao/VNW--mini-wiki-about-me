@@ -10,23 +10,34 @@
   font-family: "outfit";
   src: url("./fonts/Outfit-VariableFont_wght.ttf");
 }
+* {
+  margin: 0;
+}
+
 body {
   background: black;
 }
 
 main {
+  margin: 20px;
   padding: 40px;
+}
+
+section {
+  padding: 16px;
 }
 
 img {
   width: 350px;
   border-radius: 250px;
+  margin: 20px 25px;
 }
 
 h1 {
   font-size: 60px;
   font-family: lostar;
   color: white;
+  margin: 10px;
 }
 
 h2 {
@@ -39,6 +50,7 @@ a {
   font-family: outfit;
   font-size: 17px;
   color: OrangeRed;
+  padding: 15px;
 }
 
 li {
@@ -51,13 +63,14 @@ p {
   font-size: 20px;
   font-family: outfit;
   color: white;
+  padding: 10px;
 }
 
 footer {
   font-size: 20px;
   font-family: outfit;
   color: black;
-  width: 100%;
   background: OrangeRed;
   text-align: center;
+  padding: 15px;
 }/*# sourceMappingURL=style.css.map */
