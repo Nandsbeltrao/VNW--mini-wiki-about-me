@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Paradise";
+    src: url("./fonts/BlueParadisePersonalUseRegular-Yq32o.otf");
+}
+
+@font-face {
+    font-family: "lostar" ;
+    src: url("./fonts/Lostar.ttf");
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("./fonts/Outfit-VariableFont_wght.ttf");
+}
+
+body{
+    background: black ;
+    
+}
+
+main{
+    padding: 40px;
+
+}
+
+img{
+    width: 350px;
+    border-radius: 250px;
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: lostar;
+    color: white;
+    
+}
+
+h2{
+    font-family: Paradise;
+    font-size: 30px;
+    color:#3d209c ;
+}
+
+li{
+    font-size: 17px;
+    font-family: outfit;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-family: outfit;
+    color: white;
+}
+footer{
+    
+    font-size: 20px;
+    font-family: outfit;
+    color: black;
+    background: OrangeRed ;
+    text-align: center;
+}
